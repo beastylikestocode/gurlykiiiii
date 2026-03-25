@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #fefdff 0%, #cf043c 100%);
+}
+
+.center-text {
+    text-align: center;
+    background: #fefdff;
+    padding: 40px 60px;
+    border-radius: 20px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+}
+
+h1 {
+    font-size: 3em;
+    color: #cf043c;
+    margin-bottom: 0.5em;
+}
+
+p {
+    font-size: 1.5em;
+    color: #333;
+}
+
+button {
+    text-align: center;
+    color: #cf043c;
+    background: #fefdff;
+    padding: 10px 20px;
+    border: 1px solid #cf043c;
+    border-radius: 10px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+    transition-duration: 0.4s;
+    font-size: 1em;
+}
+
+.yesbtn {
+    margin-right: 18px;
+}
+
+.yesbtn:hover {
+    background-color: #cf043c;
+    color: #fefdff;
+}
+
+.nobtn:hover {
+    background-color: #cf043c;
+    color: #fefdff;
+}
+
+.nobtn::before {
+    content: "no";
+}
+
+.nobtn:hover::before {
+    content: "yes";
+}
+
+.morebtn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    color: #cf043c;
+    background-color: #fefdff;
+    text-decoration: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+    transition-duration: 0.4s;
+}
+
+.morebtn:hover {
+    background-color: #cf043c;
+    color: #fefdff;
+}
+
+.morebtn::before {
+    content: "wait what is this?";
+}
+
+.morebtn:hover::before {
+    content: "theres more?";
+}
